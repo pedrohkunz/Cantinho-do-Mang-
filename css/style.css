@@ -110,6 +110,26 @@ img.banner{
     box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(68, 8, 8, 0.63);
 }
 
+/* Titulo e linha */
+
+#titulo{
+    padding-top: 0.625rem;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo>h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+   
+}
+
+#linha>hr{
+    border-color: #991515;
+    
+}
+
 /* Smartphones */
 
 @media screen and (max-width: 767px){
@@ -140,6 +160,12 @@ img.banner{
         align-items: center;
         padding: 0.625rem;
         width: 100%;
+    }
+
+    #linha{
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-top: 0.313rem;
     }
 
     
@@ -176,6 +202,12 @@ img.banner{
         padding: 0.625rem;
         width: 100%;
     }
+
+    #linha{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 0.313rem;
+    }
 }
 
 /* Telas Grandes */
@@ -183,6 +215,12 @@ img.banner{
 @media screen and (min-width: 992px){
     html{
     font-size: 16px;
+    }
+
+    #linha{
+        padding-left: 28rem;
+        padding-right: 28rem;
+        padding-top: 0.313rem;
     }
     
 

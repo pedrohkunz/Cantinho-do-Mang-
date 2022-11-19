@@ -1,0 +1,190 @@
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navbar */
+
+section#menu{
+    background-color: #701F1F;
+    box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: none;
+    align-items: center;
+}
+
+img#logo{
+    width: 11.25rem;
+    padding-left: 1.875rem;
+    padding-bottom: none;
+    padding-top: 0.1875rem;
+}
+
+#nav{
+    background-color: #311111;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0.625rem;
+}
+
+nav>a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-weight: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+#itens1{
+    margin-right: 5rem;
+}
+
+#itens2{
+    margin-left: 5rem;
+}
+
+nav>a:hover { 
+    color: #525151; 
+    transition: 0.5s;
+    opacity: 0.7;
+
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border-radius:0.75rem;
+    width: 21.875rem;
+    height:2rem;
+    display: flex;  
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left: 0.75rem;
+    font-size: 1.125rem;
+    border: none;
+    height: 2rem;
+    width: 28.9375rem;
+    font-family: 'Poppins', sans-serif;
+    box-lines: 0,0,0,0;
+    outline: 0;
+    
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:1.25rem;
+    border-radius:0 0.4375rem 0.4375rem 0;
+    width: 1.25rem;
+    font-weight:bold;
+    margin-top: 0.4375rem;
+  }
+  
+  #divBusca img{
+    float:left;
+    margin-right: 0.625rem;
+  }
+
+#barradepesquisa{
+    display: block;
+    margin: 0 auto;
+    padding-right: 11.125rem;
+}
+
+/* Banner */
+
+img.banner{
+    width: 100%;
+    height: 12.5rem;
+    object-fit: cover;
+    box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(68, 8, 8, 0.63);
+}
+
+/* Smartphones */
+
+@media screen and (max-width: 767px){
+    html{
+        font-size: 8px;
+    }
+
+    img.banner{
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(68, 8, 8, 0.63);
+    }
+
+    section#menu{
+        background-color: #701F1F;
+        box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
+        display: flex;
+        padding: none;
+        align-items: center;
+        width: 100%;
+    }
+
+    #nav{
+        background-color: #311111;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 0.625rem;
+        width: 100%;
+    }
+
+    
+    }
+
+/* Tablet */
+
+@media screen and (min-width: 768px){
+    html{
+    font-size: 13px;
+    }
+
+    img.banner{
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(68, 8, 8, 0.63);
+    }
+
+    section#menu{
+        background-color: #701F1F;
+        box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
+        display: flex;
+        padding: none;
+        align-items: center;
+        width: 100%;
+    }
+
+    #nav{
+        background-color: #311111;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 0.625rem;
+        width: 100%;
+    }
+}
+
+/* Telas Grandes */
+
+@media screen and (min-width: 992px){
+    html{
+    font-size: 16px;
+    }
+    
+
+}
+

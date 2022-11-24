@@ -9,7 +9,7 @@
             <div id="barradepesquisa">
             <div id="divBusca">
                 <input type="text" id="txtBusca" placeholder="Pesquisar"/>
-                <a href="#"><img src="../img/lupa.png" id="btnBusca" alt="Buscar"/></a>
+                <button href="#" id="btn"><img src="../img/lupa.png" id="btnBusca" alt="Buscar"/></button>
             </div>
             </div>
         </head>  

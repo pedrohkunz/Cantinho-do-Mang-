@@ -16,8 +16,8 @@
     </section>
     <nav id="nav">
         <a href="../index.php" id="itens1">Home</a>
-        <a href="#">Categorias </a>
-        <a href="#" id="itens2">Sobre</a>
+        <a href="../pages/categorias.php">Categorias </a>
+        <a href="../pages/sobre.php" id="itens2">Sobre</a>
     </nav>
 </body>
 </html>

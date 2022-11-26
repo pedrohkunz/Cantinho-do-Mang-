@@ -38,9 +38,11 @@
         <spam class="spam">Fantasia</spam></a>
     </article>
 </section>
+<div class="subtitulototal">
 <section class="subtitulo">
     <h2>Populares da semana</h2>
 </section>
+</div>
 <section class="containerbanners">
 <article class="bannerscont">
     <div class="conjuntoimg">
@@ -51,16 +53,18 @@
     </div>
 </article>
 </section>
+<div class="subtitulototal">
 <section class="subtitulo">
     <h2>Mais vistos</h2>
 </section>
+</div>
 <section class="containerbanners">
 <article class="bannerscont">
     <div class="conjuntoimg">
-    <img class="bannerimg" src="../img/banner1.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner2.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner3.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner4.png" alt="Banner">
+    <img class="bannerimg" src="../img/banner5.png" alt="Banner">
+    <img class="bannerimg" src="../img/banner6.png" alt="Banner">
+    <img class="bannerimg" src="../img/banner7.png" alt="Banner">
+    <img class="bannerimg" src="../img/banner8.png" alt="Banner">
     </div>
 </article>
 </section>

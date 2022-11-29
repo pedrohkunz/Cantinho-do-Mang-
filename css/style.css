@@ -264,6 +264,11 @@ section>article>a{
     flex-direction: row;
 }
 
+section>article>div>a{
+    text-decoration: none;
+    color: transparent;
+}
+
 /* Sobre */
 
 #texto{
@@ -314,6 +319,185 @@ section>article>a{
 #footer>img{
     max-width: 2.5rem;
 }
+
+/* Página de leitura */
+
+.paginadeleitura{
+    display: block;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
+    width: 60rem;
+    
+}
+
+.btn-pagina{
+    padding-bottom: 0.313rem;
+    padding-top: 0.313rem;
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    background-color: #311111;
+    margin-bottom: 3.125rem;
+    
+}
+
+.spam-pagina{
+    background-color: #311111;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-principal{
+    display: flex;
+    justify-content: center;
+    height: 2.188rem;
+    margin-bottom: 0.938rem;
+    
+}
+
+.imgseta-left{
+    height: 2.188rem;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+    
+}
+
+.imgseta-right{
+    height: 2.188rem;
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    
+}
+
+.btn-lateral{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* Sinópse */
+
+.bannersinopse{
+    width: 20rem;
+}
+
+.itenssinopse{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulosinopse {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-bottom: 1.25rem;
+    
+}
+
+.informaçoessinopse {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+}
+
+.subtitulosinopse{
+    padding-top: 0.625rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-indent: 0.5rem;
+}
+
+.paragrafosinopse{
+    text-indent: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.informaçoes{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+.spamsinopse{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-indent: 0.8rem;
+    padding-top: 0.75rem;
+}
+
+.hrsinopse>hr{
+    border-color: #991515;
+    font-weight: 600;
+    margin-top: 0.313rem;
+}
+
+.hrsinopse2>hr{
+    border-color: #991515;
+    font-weight: 600;
+}
+
+.hrsinopse2{
+    padding-left: 5.313rem;
+    padding-right: 81.25rem;
+}
+
+.subtitulosinopsebtn{
+    padding-left: 3.188rem;
+}
+
+.capituloscontainer{
+    background-color: #D9D9D9;
+    box-shadow: 0.125rem 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.2);
+    margin-top: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+    padding-left: 0.938rem;
+    padding-right: 0.625rem;
+    transition: 1s;
+}
+
+.capituloscontainer:hover{
+    
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    filter:brightness(30%);
+    opacity: 0.15;
+}
+
+.seleçaocapitulos{
+    margin-left: 5.313rem;
+    margin-right: 13.75rem;
+}
+
+.capituloscontainer>img{
+    width: 2.188rem;
+    
+}
+
+.seleçaocapitulos>article>span{
+    padding-top: 0.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.contcapitulos{
+    padding-bottom: 1.875rem;
+}
+
+.contcapitulos>a{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 /* Smartphones */
 
@@ -369,6 +553,15 @@ section>article>a{
         padding-top: 1.25rem;
         width: 8rem;
         transition: 1s;
+    }
+
+    .paginadeleitura{
+        display: block;
+        margin: 0 auto;
+        padding-top: 8rem;
+        padding-bottom: 0.625rem;
+        width: 45rem;
+        
     }
 
     }
@@ -429,6 +622,17 @@ section>article>a{
         width: 13rem;
         transition: 1s;
     }
+
+    .paginadeleitura{
+        display: block;
+        margin: 0 auto;
+        padding-top: 1.25rem;
+        padding-bottom: 0.625rem;
+        width: 50rem;
+        
+       
+        
+    }
 }
 
    
@@ -455,5 +659,14 @@ section>article>a{
     
     #bannerscat>article>a>img{
         width: 7.813rem;
+    }
+
+    .paginadeleitura{
+        display: block;
+        margin: 0 auto;
+        padding-top: 1.25rem;
+        padding-bottom: 0.625rem;
+        width: 55rem;
+        
     }
 }

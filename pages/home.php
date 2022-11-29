@@ -1,6 +1,6 @@
-<?php 
-    require_once('../pages/navbar.php')
-?>
+<?php require_once('../pages/navbar.php') ?>
+
+<body>
 <img src="../img/banner.png" alt="Banner" class="banner">
 <section id="titulo">
     <h1>Categorias</h1>
@@ -39,35 +39,36 @@
     </article>
 </section>
 <div class="subtitulototal">
-<section class="subtitulo">
-    <h2>Populares da semana</h2>
-</section>
+    <section class="subtitulo">
+        <h2>Populares da semana</h2>
+    </section>
 </div>
 <section class="containerbanners">
-<article class="bannerscont">
-    <div class="conjuntoimg">
-    <img class="bannerimg" src="../img/banner1.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner2.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner3.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner4.png" alt="Banner">
-    </div>
-</article>
+    <article class="bannerscont">
+        <div class="conjuntoimg">
+        <img class="bannerimg" src="../img/banner1.png" alt="Banner">
+        <img class="bannerimg" src="../img/banner2.png" alt="Banner">
+        <a href="../sinopse/chainsawman.php">><img class="bannerimg" src="../img/banner3.png" alt="Banner"></a>
+        <img class="bannerimg" src="../img/banner4.png" alt="Banner">
+        </div>
+    </article>
 </section>
 <div class="subtitulototal">
-<section class="subtitulo">
-    <h2>Mais vistos</h2>
-</section>
+    <section class="subtitulo">
+        <h2>Mais vistos</h2>
+    </section>
 </div>
 <section class="containerbanners">
-<article class="bannerscont">
-    <div class="conjuntoimg">
-    <img class="bannerimg" src="../img/banner5.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner6.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner7.png" alt="Banner">
-    <img class="bannerimg" src="../img/banner8.png" alt="Banner">
-    </div>
-</article>
+    <article class="bannerscont">
+        <div class="conjuntoimg">
+        <img class="bannerimg" src="../img/banner5.png" alt="Banner">
+        <img class="bannerimg" src="../img/banner6.png" alt="Banner">
+        <img class="bannerimg" src="../img/banner7.png" alt="Banner">
+        <img class="bannerimg" src="../img/banner8.png" alt="Banner">
+        </div>
+    </article>
 </section>
+</body>
 
 <?php require_once("../pages/footer.php") ?>
 

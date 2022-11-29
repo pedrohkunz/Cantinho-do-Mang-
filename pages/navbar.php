@@ -1,6 +1,4 @@
-<?php 
-    require_once("../pages/head.php");
-?>
+<?php require_once("../pages/head.php"); ?>
 
 <body>
     <section id="menu">
@@ -20,4 +18,3 @@
         <a href="../pages/sobre.php" id="itens2">Sobre</a>
     </nav>
 </body>
-</html>

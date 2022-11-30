@@ -47,31 +47,31 @@
             <hr>
         </section>
         <div class="contcapitulos">
-            <a href="../pages/leitura.php"><section class="seleçaocapitulos">
+            <a href="../pages/chainsawman-pag-1.php"><section class="seleçaocapitulos">
                 <article class="capituloscontainer">
                     <span>Capítulo 1</span>
                     <img src="../img/book.png" alt="livro">
                 </article>
             </section></a>
-            <a href="#"><section class="seleçaocapitulos">
+            <a href="../pages/chainsawman-pag-1.php"><section class="seleçaocapitulos">
                 <article class="capituloscontainer">
                     <span>Capítulo 2</span>
                     <img src="../img/book.png" alt="livro">
                 </article>
             </section></a>
-            <a href="#"><section class="seleçaocapitulos">
+            <a href="../pages/chainsawman-pag-1.php"><section class="seleçaocapitulos">
                 <article class="capituloscontainer">
                     <span>Capítulo 3</span>
                     <img src="../img/book.png" alt="livro">
                 </article>
             </section></a>
-            <a href="#"><section class="seleçaocapitulos">
+            <a href="../pages/chainsawman-pag-1.php"><section class="seleçaocapitulos">
                 <article class="capituloscontainer">
                     <span>Capítulo 4</span>
                     <img src="../img/book.png" alt="livro">
                 </article>
             </section></a>
-            <a href="#"><section class="seleçaocapitulos">
+            <a href="../pages/chainsawman-pag-1.php"><section class="seleçaocapitulos">
                 <article class="capituloscontainer">
                     <span>Capítulo 5</span>
                     <img src="../img/book.png" alt="livro">

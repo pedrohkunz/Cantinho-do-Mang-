@@ -1,2 +1,2 @@
 # Cantinho do mangá
-Projeto Desenvolvido Para a Disciplina de WEB I  utilizando HTML, CSS e PHP.
+Projeto desenvolvido para a Disciplina de WEB I, com o objetivo de demonstrar o conhecimento aprendido em tecnologias como HTML5 e CSS3.

@@ -1,2 +1,2 @@
-# Cantinho-do-Mang-
+# CantinhoDoMangá
 Projeto Desenvolvido Para a Disciplina de WEB I  utilizando HTML, CSS e PHP.
